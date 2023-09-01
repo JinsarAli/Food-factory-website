@@ -1,0 +1,446 @@
+  @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .main {
+      width: 100%;
+      height: 100vh;
+      background-image: url("../img/Rectangle.png");
+  }
+
+  .container {
+      width: 90%;
+      margin: auto;
+  }
+
+  .topheader {
+      width: 100%;
+      min-height: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .logo {
+      width: 100%;
+      min-height: 100px;
+      display: flex;
+      align-items: center;
+
+  }
+
+  .logo img {
+      width: 210px;
+  }
+
+  .heading {
+      width: 32%;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+  }
+
+  .heading h3 {
+      color: #3d2514;
+  }
+
+  .bottom-header {
+      width: 100%;
+      min-height: auto;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .list ul li {
+      position: relative;
+      list-style: none;
+      float: left;
+  }
+
+  .list ul li a {
+      text-decoration: none;
+      color: #3d2514;
+      font-size: 20px;
+      padding: 0px 13px;
+      margin-left: 20px;
+  }
+
+  .burger-row {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .burger-row .burger-text {
+      width: 38%;
+  }
+
+  .burger-row .burger-text p {
+      border: 4px dotted #3d2514;
+      font-size: larger;
+      padding: 10px;
+      margin-bottom: 20px;
+  }
+
+  .burger-row .burger-text h1 {
+      font-size: 50px;
+      font-family: 'Alfa Slab One', cursive;
+      color: #3d2514;
+  }
+
+  .burger-img img {
+      width: 90%;
+  }
+
+  .burger-img h2 {
+      background-color: rgb(169, 24, 24);
+      width: 150px;
+      height: 150px;
+      padding: 40px;
+      border: 4px dotted #fff;
+      color: #fff;
+      border-radius: 50%;
+      transform: rotate(30deg);
+      transform: translateY(-120px);
+      font-style: italic;
+
+  }
+
+  .menu {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .row {
+      width: 100%;
+      height: 70vh;
+      display: flex;
+      gap: 70px;
+      align-items: center;
+  }
+  .menu-col1{
+    width: 100%;
+    height: 60vh;
+    background-image: url("../img/Burger\ Image\ main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .menu-col1 h2{
+    color: #fff;
+    margin-top: 10px;
+  }
+  .menu-col1 h1{
+    color: #fff;
+    font-size: 40px;
+  }
+
+  .menu-col2 .menu-img2 {
+      margin-bottom: 50px;
+  }
+
+  .service {
+      width: 100%;
+  }
+
+  .service-text {
+      width: 100%;
+  }
+
+  .service-text h3 {
+      background-color: #ffc045;
+      width: 20%;
+      padding: 10px;
+      margin-left: 540px;
+      margin-bottom: 30px;
+  }
+
+  .service-text h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      color: #3d2514;
+      margin-bottom: 20px;
+      font-family: 'Alfa Slab One', cursive;
+  }
+
+  .service-text div {
+      width: 90%;
+      margin: auto;
+      color: #3d2514;
+      text-align: center;
+      line-height: 30px;
+      font-size: larger;
+  }
+
+  .service-img {
+      width: 103%;
+      height: 100vh;
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .service-img img {
+      width: 80%;
+      margin-bottom: 20px;
+  }
+
+  .service-img .img1 {
+      width: 34%;
+  }
+
+  .service-img .img2 {
+      width: 35%;
+  }
+
+  .service-img .img3 {
+      width: 27%;
+  }
+
+  .zinger-heading {
+      width: 78%;
+  }
+
+  .zinger-heading h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #3d2514;
+  }
+
+  .zinger-text {
+      width: 70%;
+  }
+
+  .zinger-text p {
+      text-align: center;
+      color: #3d2514;
+      line-height: 25px;
+      font-size: larger;
+      margin-bottom: 30px;
+  }
+
+  .zinger-btn {
+      width: 70%;
+      margin: auto;
+  }
+
+  .zinger-btn button {
+      width: 180px;
+      background-color: rgb(195, 51, 51);
+      padding: 20px;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.8);
+      border: none;
+      color: white;
+      font-size: larger;
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+  .zinger-btn button:hover {
+      background-color: #ffc045;
+      color: rgb(78, 65, 65);
+  }
+
+  .events {
+      width: 90%;
+      margin: auto;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+
+  .event-heading {
+      width: 80%;
+  }
+
+  .event-main {
+      width: 100%;
+      display: flex;
+      gap: 100px;
+  }
+
+  .events .event-main h1 {
+      font-size: 40px;
+      color: #3d2514;
+      margin-bottom: 30px;
+      font-family: 'Alfa Slab One', cursive;
+  }
+
+  .events .event-main h2 {
+      font-size: 25px;
+      color: #3d2514;
+  }
+
+  .events .event-main p {
+      width: 90%;
+      font-size: larger;
+      color: #3d2514;
+      line-height: 35px;
+  }
+
+  .events .event-img {
+      width: 60%;
+  }
+
+  .events .event-img img {
+      margin-top: 15px;
+      padding: 20px;
+      margin-left: 40px;
+      width: 100%;
+  }
+
+  .form {
+      width: 100%;
+  }
+
+  .form-display {
+      align-items: center;
+      display: flex;
+  }
+
+  .form-burger {
+      width: 35%;
+  }
+
+  .form-heading {
+      width: 30%;
+  }
+
+  .form-heading h2 {
+      text-align: center;
+      margin-bottom: 10px;
+      color: #3d2514;
+  }
+
+  .form-heading h1 {
+      font-size: 40px;
+      text-align: center;
+      color: #3d2514;
+      font-family: 'Alfa Slab One', cursive;
+  }
+
+  .form-input {
+      width: 100%;
+      height: 80vh;
+  }
+
+  .form-body {
+      width: 80%;
+      margin: auto;
+      display: flex;
+  }
+
+  .input {
+      width: 70%;
+      line-height: 95px;
+      margin-top: 50px;
+  }
+
+  input {
+      border: none;
+      border-radius: 10px;
+      width: 350px;
+      margin-left: 30px;
+      padding: 25px;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+      outline: none;
+  }
+
+  .sub-input button {
+      width: 350px;
+      padding: 22px;
+      border-radius: 10px;
+      border: none;
+      background-color: rgb(156, 23, 23);
+      color: #fff;
+      font-size: larger;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.8);
+      font-weight: bold;
+      margin-left: 30px;
+      cursor: pointer;
+  }
+
+  .sub-input button:hover {
+      background-color: #ffc045;
+      transition: 0.5s ease-out;
+  }
+
+  .footer-img {
+      width: 100%;
+  }
+
+  .footer-img img {
+      margin-top: 70px;
+  }
+
+  .footer-design {
+      width: 100%;
+      height: 84vh;
+      background-image: url("../img/background.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .footer-row {
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .footer-row .col1 {
+      width: 45%;
+  }
+
+  .col1 p {
+      margin-top: 30px;
+      color: #fff;
+      font-size: larger;
+      line-height: 35px;
+  }
+
+  .col2 {
+      width: 1%;
+      margin-left: 100px;
+      line-height: 50px;
+  }
+
+  .col2 .location img {
+      margin-top: 20px;
+  }
+
+  .col3 {
+      width: 35%;
+      margin-right: 50px;
+  }
+
+  .col3 h2 {
+      color: #fff;
+      line-height: 50px;
+  }
+  footer{
+    width: 100%;
+    height: 8vh;
+  }
+  footer p{
+    font-size: larger;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 0;
+    margin: 10px 0px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-logoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-bottom-icons img{
+    padding-right: 10px;
+  }
